@@ -66,7 +66,7 @@ cd ads-ai-agent
 
 python -m venv venv
 venv\Scripts\activate        # On Windows
-# source venv/bin/activate   # On Mac/Linux
+source venv/bin/activate   # On Mac/Linux
 </pre>
 
 <h3>2. Install Dependencies</h3>
@@ -81,7 +81,7 @@ pip install -r requirements_clean.txt
 # Download from https://ollama.com
 ollama pull llama3.2:3b
 
-# Keep Ollama running in background
+Keep Ollama running in background
 ollama serve
 </pre>
 
@@ -107,7 +107,7 @@ python tools/apify_scraper.py
 
 <h3>Step 2 — Extract Marketing Insights</h3>
 <pre>
-python agents/marketing_extractor_ollama.py
+python agents/marketing_extractor.py
 </pre>
 <p>Uses Ollama to analyze each ad and find pain points, hooks, and marketing concepts. The output is in <code>data/marketing_insights.json</code>. Some of the pain points it found were pretty dramatic ("betrayal", "exploitation") — that's just what the LLM picked up from real trading ads.</p>
 
@@ -119,7 +119,7 @@ python agents/script_generator_with_gdrive.py
 
 <h3>Step 4 — Create the Video</h3>
 <pre>
-python agents/video_generator_pexels.py
+python agents/video_generator.py
 </pre>
 <p>This fetches real images from Pexels based on the scene descriptions, generates voiceover using gTTS, stitches everything together with MoviePy. Output is <code>output/videos/final_ad_with_pexels.mp4</code>. Takes about 2-3 minutes.</p>
 
@@ -226,7 +226,7 @@ https://www.linkedin.com/in/dikshitapimpale/</p>
 
 <hr>
 
-<p><em>Built with Python, Ollama, Apify, MoviePy, and too much coffee ☕</em></p>
+<p><em>Built with Python, Ollama, Apify, MoviePy, and too much lemonade ˙ ✩°˖🍋⋆｡˚꩜</em></p>
 
 </body>
 </html>
