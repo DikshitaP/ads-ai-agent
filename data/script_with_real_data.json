@@ -1,0 +1,32 @@
+{
+  "hook": "Tired of losing money? Our AI just issued an 85% confidence LONG signal!",
+  "scenes": [
+    {
+      "scene": 1,
+      "visual": "Nasdaq chart showing upward momentum",
+      "voiceover": "Most traders miss the big moves. But CrowdWisdomTrading's AI caught the Nasdaq breakout with 85% confidence."
+    },
+    {
+      "scene": 2,
+      "visual": "Trading dashboard with target levels",
+      "voiceover": "Our system analyzes professional traders on YouTube, X, Reddit, and Groq to find the exact entry points."
+    },
+    {
+      "scene": 3,
+      "visual": "Price target on screen",
+      "voiceover": "First target: 27480. Second target: higher. Stop-loss automatically calculated."
+    },
+    {
+      "scene": 4,
+      "visual": "Signal success rate",
+      "voiceover": "Unified consensus across all platforms. No more guessing where the market goes."
+    },
+    {
+      "scene": 5,
+      "visual": "Call to action button",
+      "voiceover": "Join CrowdWisdomTrading today. Get your first 14 days free. No credit card required."
+    }
+  ],
+  "cta": "Visit CrowdWisdomTrading.com and start winning trades with real AI signals.",
+  "total_duration_seconds": 60
+}

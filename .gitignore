@@ -1,0 +1,35 @@
+@"
+# Virtual environment
+venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+
+# Environment variables (contains API keys!)
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Output files (too large for GitHub)
+output/videos/*.mp4
+output/videos/*.mp3
+output/videos/*.jpg
+output/videos/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+"@ | Out-File -FilePath .gitignore -Encoding utf8
